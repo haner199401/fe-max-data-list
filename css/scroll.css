@@ -1,0 +1,28 @@
+#container{
+    margin: 10px auto;
+    width:200px;
+    height: 400px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+#header, #footer, #list{
+    margin: 0;
+    width: 100%;
+}
+
+.item{
+    height: 39px;
+    width: 100%;
+    background: #eee;
+    border-bottom: 1px solid #ddd;
+}
+.item img{
+    width:30px;
+    height: 30px;
+    margin: 5px;
+}
+.item span{
+    line-height: 40px;
+    font-size: 20px;
+    height: 30px;
+}
