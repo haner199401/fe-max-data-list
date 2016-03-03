@@ -14,7 +14,7 @@
         },
         show: function(value){
             this.valueNode.text(value);
-            this.imgNode.attr('src', 'images/' + parseInt(5*Math.random()) + '.jpg');
+            this.imgNode.attr('src', 'images/' + ~~(5*Math.random()) + '.jpg');
         }
     })
 })(window);
